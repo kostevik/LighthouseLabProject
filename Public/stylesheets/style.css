@@ -1,1 +1,7 @@
-style.css
+fieldset {
+	background-color: #33CCCC;
+}
+
+body {
+	margin: 200px;
+}
