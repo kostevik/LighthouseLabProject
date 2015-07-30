@@ -1,7 +1,15 @@
 fieldset {
-	background-color: #33CCCC;
+	background-color: #8080FF;
 }
 
 body {
 	margin: 200px;
+	font-family: "Geneva";
+	background-color: #33CCCC;
+	line-height: 150%;
+}
+
+input[type=text]:hover {
+        background-color:#ffff66;
+        border-color:#999999;
 }

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="public/stylesheets/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<title>profile</title>
+	</head>
+	<body>
+		<form action="/profile/edit" method="post">
+			<fieldset>
+				<legend>Profile</legend>
+				<label for="email_profile">Email:</label><br><input type="email" name="email_profile" id="email_profile" placeholder="Email"><br>
+				<label for="password_profile">Password:</label><br><input type="password" name="password_profile" id="password_profile" placeholder="Password"><br>
+				<label>Gender:</label><br>
+				<input type="radio" name="sex" value="male">Male<br>
+				<input type="radio" name="sex" value="female">Female<br>
+				<label for="first_name_profile">First Name:</label><br><input type="text" name="first_name_profile" id="first_name_profile" placeholder="First Name"><br>
+				<label for="first_name_profile">Last Name:</label><br><input type="text" name="last_name_profile" id="first_name_profile" placeholder="Last Name">
+			</fieldset>
+	    </form>
+
+	</body>
+</html>
